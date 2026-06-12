@@ -1,0 +1,503 @@
+{
+  "workOrders": [
+    {
+      "id": "W-0004",
+      "salesId": "S-0001",
+      "woRef": "S-0001",
+      "custName": "Panji Alam Palm Oil Mill",
+      "client": "Panji Alam Palm Oil Mill",
+      "productName": "",
+      "equipment": "",
+      "type": "repair",
+      "equipType": "pressure-equipment",
+      "status": "New",
+      "designStatus": "Approved",
+      "materials": [
+        {
+          "desc": "9 thk x 1828W x 2440L",
+          "grade": "EN10025 S275JR",
+          "qty": 8,
+          "unit": "mm"
+        }
+      ],
+      "createdAt": "2026-06-12T12:49:36.495Z",
+      "site": "",
+      "priority": "Medium",
+      "dueDate": "",
+      "designPressure": "",
+      "designTemperature": "",
+      "shellHeadMaterial": "",
+      "headType": "",
+      "description": "Sales Order S-0001 \u2014  for Panji Alam Palm Oil Mill",
+      "repairInfo": {
+        "equipName": "Steriliser",
+        "regNo": "SL-PMT-5544",
+        "serial": "ST-02-2111",
+        "yearMfg": "2002",
+        "designP": "4",
+        "designT": "100",
+        "scope": "Remove the existing damaged liner plate and install new liner, perform bubble test and commissioning",
+        "tests": {
+          "hydro": false,
+          "bubble": true,
+          "dpt": true,
+          "mpi": false,
+          "xray": false,
+          "visual": true,
+          "ut": true
+        }
+      },
+      "branch": "mar",
+      "testingRequirement": "Bubble, Dpt, Visual, Ut",
+      "marDoshReg": "SL-PMT-5544",
+      "prRef": "P-0001",
+      "materialApproved": true,
+      "materialApprovedDate": "2026-06-12"
+    },
+    {
+      "id": "W-0003",
+      "salesId": "S-0002",
+      "woRef": "S-0002",
+      "custName": "Tenaga Nasional",
+      "client": "Tenaga Nasional",
+      "productName": "500mm ID x 2000mm SA-516 Gr.70 Pressure Vessel",
+      "equipment": "500mm ID x 2000mm SA-516 Gr.70 Pressure Vessel",
+      "type": "fabrication",
+      "equipType": "pressure-equipment",
+      "status": "New",
+      "designStatus": "Approved",
+      "materials": [
+        {
+          "name": "Pressure Gauge",
+          "size": "DN25",
+          "spec": "SA106 GR.B",
+          "qty": 1
+        },
+        {
+          "name": "Drain",
+          "size": "DN40",
+          "spec": "SA106 GR.B",
+          "qty": 1
+        },
+        {
+          "name": "Inlet",
+          "size": "DN80",
+          "spec": "SA106 GR.B",
+          "qty": 1
+        },
+        {
+          "name": "Pressure Gauge Flange",
+          "size": "DN25",
+          "spec": "A105",
+          "qty": 1
+        },
+        {
+          "name": "Drain Flange",
+          "size": "DN40",
+          "spec": "A105",
+          "qty": 1
+        },
+        {
+          "name": "Inlet Flange",
+          "size": "DN80",
+          "spec": "A105",
+          "qty": 1
+        },
+        {
+          "name": "Manhole 450mm ID x 150mm",
+          "size": "SA516 GR.70",
+          "spec": "1",
+          "qty": 1
+        },
+        {
+          "name": "Lifting Lugs (2 nos)",
+          "size": "SA516 GR.70",
+          "spec": "2",
+          "qty": 2
+        }
+      ],
+      "createdAt": "2026-06-09T17:17:10.008Z",
+      "site": "",
+      "priority": "Medium",
+      "dueDate": "",
+      "designPressure": "10",
+      "designTemperature": "100",
+      "shellHeadMaterial": "SA516 GR.70 / SA516 GR.70",
+      "headType": "Ellipsoidal Head",
+      "description": "Sales Order S-0002 \u2014 500mm ID x 2000mm SA-516 Gr.70 Pressure Vessel for Tenaga Nasional",
+      "repairInfo": null,
+      "branch": "fab"
+    }
+  ],
+  "assets": [
+    {
+      "id": "EQ-001",
+      "name": "Welding Machine Miller 350",
+      "lastService": "2026-01-05",
+      "nextDue": "2026-07-05",
+      "status": "Operational"
+    },
+    {
+      "id": "EQ-002",
+      "name": "Hydrostatic Test Pump",
+      "lastService": "2025-12-15",
+      "nextDue": "2026-03-15",
+      "status": "Due Soon"
+    }
+  ],
+  "customers": [
+    {
+      "id": "CUST-006",
+      "name": "En. FAZLIN BIN BAHARUDIN.",
+      "company": "Panji Alam Palm Oil Mill",
+      "email": "kspasb@gmail.com",
+      "phone": "+60 9-867 6269",
+      "address": "Bandar Seri Bandi, Hulu Chukai,\n24200, Kemasik,\nTerengganu, Malaysia",
+      "type": "Corporate",
+      "status": "Active",
+      "since": "2026-06-03"
+    },
+    {
+      "id": "CUST-001",
+      "name": "Petronas Refinery",
+      "contact": "Ahmad Faizal",
+      "email": "afaizal@petronas.com.my",
+      "phone": "+60-3-1234-5678",
+      "address": "Kerteh, Terengganu",
+      "company": "Petronas",
+      "type": "Corporate",
+      "status": "Active",
+      "since": "2019-06-15"
+    },
+    {
+      "id": "CUST-002",
+      "name": "Shell Malaysia",
+      "contact": "Linda Tan",
+      "email": "linda.tan@shell.com",
+      "phone": "+60-3-8765-4321",
+      "address": "Port Dickson, Negeri Sembilan",
+      "company": "Shell",
+      "type": "Corporate",
+      "status": "Active",
+      "since": "2020-03-22"
+    },
+    {
+      "id": "CUST-003",
+      "name": "TNB Power Generation",
+      "contact": "Razak Omar",
+      "email": "razak.omar@tnb.com.my",
+      "phone": "+60-5-2345-6789",
+      "address": "Manjung, Perak",
+      "company": "Tenaga Nasional",
+      "type": "Corporate",
+      "status": "Active",
+      "since": "2018-11-01"
+    },
+    {
+      "id": "CUST-004",
+      "name": "Malakoff Corporation",
+      "contact": "Siti Nurhaliza",
+      "email": "siti@malakoff.com.my",
+      "phone": "+60-5-3456-7890",
+      "address": "Lumut, Perak",
+      "company": "Malakoff",
+      "type": "Corporate",
+      "status": "Active",
+      "since": "2021-01-10"
+    },
+    {
+      "id": "CUST-005",
+      "name": "Petron Chemical",
+      "contact": "Michael Wong",
+      "email": "michael.wong@petronchem.com",
+      "phone": "+60-9-4567-8901",
+      "address": "Gebeng, Pahang",
+      "company": "Petron Chemical Group",
+      "type": "Corporate",
+      "status": "Active",
+      "since": "2022-07-05"
+    }
+  ],
+  "salesOrders": [
+    {
+      "id": "S-0001",
+      "custName": "Panji Alam Palm Oil Mill",
+      "custId": "CUST-006",
+      "contact": "En. FAZLIN BIN BAHARUDIN.",
+      "email": "kspasb@gmail.com",
+      "productName": "",
+      "type": "repair",
+      "equipType": "pressure-equipment",
+      "budget": 25000,
+      "customer": "Panji Alam Palm Oil Mill",
+      "equipment": "",
+      "amount": 25000,
+      "description": "",
+      "materials": [
+        {
+          "desc": "9 thk x 1828W x 2440L",
+          "grade": "EN10025 S275JR",
+          "qty": 8,
+          "unit": "mm"
+        }
+      ],
+      "installDuration": "1 week",
+      "installDate": "2026-06-19",
+      "handoverDuration": "1 week",
+      "handoverDate": "2026-06-19",
+      "projectCost": "25000",
+      "status": "Design Approved",
+      "designStatus": "Approved",
+      "createdAt": "2026-06-12T03:27:19.609Z",
+      "repairInfo": {
+        "equipName": "Steriliser",
+        "regNo": "SL-PMT-5544",
+        "serial": "ST-02-2111",
+        "yearMfg": "2002",
+        "designP": "4",
+        "designT": "100",
+        "scope": "Remove the existing damaged liner plate and install new liner, perform bubble test and commissioning",
+        "tests": {
+          "hydro": false,
+          "bubble": true,
+          "dpt": true,
+          "mpi": false,
+          "xray": false,
+          "visual": true,
+          "ut": true
+        }
+      },
+      "peMaterials": {
+        "shellSize": "",
+        "shellSpec": "",
+        "shellQty": "",
+        "headSize": "",
+        "headSpec": "",
+        "headType": "",
+        "headQty": "",
+        "nozzleList": [],
+        "flangeList": [],
+        "saddleName": "",
+        "saddleSpec": "",
+        "saddleQty": "",
+        "otherName": "",
+        "otherSpec": "",
+        "otherQty": "",
+        "otherList": [],
+        "misc": "",
+        "designCheck": true,
+        "fabCheck": true,
+        "designPressure": "",
+        "designPressureUnit": "bar",
+        "designTemp": "",
+        "designCode": "ASME VIII Div 1"
+      },
+      "phone": "",
+      "installationDuration": "",
+      "installationDueDate": "",
+      "handoverDueDate": "",
+      "amended": true,
+      "amendedAt": "2026-06-12T12:09:06.389Z",
+      "designApprovedDate": "2026-06-12"
+    }
+  ],
+  "accountingEntries": [
+    {
+      "id": "GL-2026-0002",
+      "date": "2026-06-12",
+      "description": "Revenue recognition - S-0001 - ",
+      "debit": 0,
+      "credit": 25000,
+      "account": "Revenue"
+    },
+    {
+      "id": "GL-2026-0001",
+      "date": "2026-06-12",
+      "description": "Sales Order S-0001 -  (Panji Alam Palm Oil Mill)",
+      "debit": 25000,
+      "credit": 0,
+      "account": "Accounts Receivable"
+    }
+  ],
+  "purchaseRequisitions": [
+    {
+      "id": "P-0001",
+      "woRef": "W-0004",
+      "salesRef": "S-0001",
+      "custName": "Panji Alam Palm Oil Mill",
+      "productName": "",
+      "items": [
+        {
+          "desc": "9 thk x 1828W x 2440L",
+          "spec": "EN10025 S275JR",
+          "size": "",
+          "qty": 8
+        },
+        {
+          "desc": "Repair: 9 thk x 1828W x 2440L",
+          "spec": "EN10025 S275JR",
+          "size": "",
+          "qty": 8
+        }
+      ],
+      "status": "Pending",
+      "approvedBy": "Design Dept",
+      "approvedAt": "2026-06-12T12:50:15.570Z",
+      "createdAt": "2026-06-12T12:50:15.570Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "U1",
+      "username": "admin",
+      "password": "admin123",
+      "name": "Admin User",
+      "role": "Administrator",
+      "avatar": "AD"
+    },
+    {
+      "id": "U2",
+      "username": "user",
+      "password": "user123",
+      "name": "Staff User",
+      "role": "Staff",
+      "avatar": "SU"
+    }
+  ],
+  "documents": [
+    {
+      "id": "DOC-0001",
+      "name": "Air Receiver GA Drawing Rev 4",
+      "type": "Drawing",
+      "category": "ASME",
+      "version": "4.0",
+      "description": "General arrangement drawing for 2000L air receiver",
+      "tags": "ASME, UV-Stamp, Pressure Vessel",
+      "status": "Approved",
+      "linkedType": "workOrder",
+      "linkedRef": "WO-2026-0001",
+      "fileName": "AR_GA_Rev4.pdf",
+      "fileSize": 2457600,
+      "fileData": null,
+      "notes": "DOSH approved",
+      "createdAt": "2026-01-15T08:00:00Z",
+      "updatedAt": "2026-02-20T10:30:00Z"
+    },
+    {
+      "id": "DOC-0002",
+      "name": "WPS SMAW 6G Position",
+      "type": "WPS",
+      "category": "ASME IX",
+      "version": "2.1",
+      "description": "Welding Procedure Specification for SMAW 6G position",
+      "tags": "WPS, SMAW, 6G, Carbon Steel",
+      "status": "Approved",
+      "linkedType": "workOrder",
+      "linkedRef": "WO-2026-0001",
+      "fileName": "WPS_SMAW_6G.pdf",
+      "fileSize": 1024000,
+      "fileData": null,
+      "notes": "Qualified per ASME IX",
+      "createdAt": "2025-11-10T09:00:00Z",
+      "updatedAt": "2026-01-05T14:00:00Z"
+    },
+    {
+      "id": "DOC-0003",
+      "name": "Material Certificate SA516 Gr.70",
+      "type": "Certificate",
+      "category": "Mill Certificate",
+      "version": "1.0",
+      "description": "Material test certificate for SA516 Grade 70 plate",
+      "tags": "MTC, SA516, Carbon Steel",
+      "status": "Final",
+      "linkedType": "workOrder",
+      "linkedRef": "WO-2026-0001",
+      "fileName": "MTC_SA516_70.pdf",
+      "fileSize": 512000,
+      "fileData": null,
+      "notes": "From supplier",
+      "createdAt": "2026-01-20T11:00:00Z",
+      "updatedAt": "2026-01-20T11:00:00Z"
+    },
+    {
+      "id": "DOC-0004",
+      "name": "Hydrotest Procedure",
+      "type": "Report",
+      "category": "QA/QC",
+      "version": "1.0",
+      "description": "Hydrostatic test procedure and checklist",
+      "tags": "Hydrotest, QA, Procedure",
+      "status": "Final",
+      "linkedType": "",
+      "linkedRef": "",
+      "fileName": "Hydrotest_Procedure.pdf",
+      "fileSize": 768000,
+      "fileData": null,
+      "notes": "",
+      "createdAt": "2026-02-01T07:30:00Z",
+      "updatedAt": "2026-02-01T07:30:00Z"
+    },
+    {
+      "id": "DOC-0005",
+      "name": "NDE Examination Report",
+      "type": "Report",
+      "category": "NDE",
+      "version": "1.0",
+      "description": "NDE examination results for weld joints",
+      "tags": "NDE, RT, UT, MT",
+      "status": "Approved",
+      "linkedType": "fabOrder",
+      "linkedRef": "FO-2026-0001",
+      "fileName": "NDE_Report_FO001.pdf",
+      "fileSize": 3145728,
+      "fileData": null,
+      "notes": "All joints passed",
+      "createdAt": "2026-03-10T13:00:00Z",
+      "updatedAt": "2026-03-12T09:00:00Z"
+    },
+    {
+      "id": "DOC-0006",
+      "name": "Petronas Vendor Registration",
+      "type": "Other",
+      "category": "Registration",
+      "version": "3.0",
+      "description": "Vendor registration certificate with Petronas",
+      "tags": "Petronas, Vendor, Approved",
+      "status": "Approved",
+      "linkedType": "customer",
+      "linkedRef": "CUST-001",
+      "fileName": "Petronas_Vendor_Reg.pdf",
+      "fileSize": 1835008,
+      "fileData": null,
+      "notes": "Valid until Dec 2027",
+      "createdAt": "2025-06-01T08:00:00Z",
+      "updatedAt": "2025-12-01T10:00:00Z"
+    }
+  ],
+  "testItems": [
+    {
+      "name": "Widget",
+      "qty": 25,
+      "id": "T-0001"
+    }
+  ],
+  "testStore": [
+    {
+      "name": "Test Item",
+      "qty": 25,
+      "id": "T-0001"
+    }
+  ],
+  "testQuick": [
+    {
+      "name": "Q",
+      "id": "T-0001"
+    }
+  ],
+  "customerTest": [
+    {
+      "name": "TestCo",
+      "id": "C-0001"
+    }
+  ]
+}
