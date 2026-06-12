@@ -1,0 +1,10 @@
+C:\ADDeen_ERP\
+├── 📄 ADDeen_ERP.html               # Main ERP page
+├── 📄 styles.css                    # CSS styles
+├── 📄 app.js                        # JavaScript
+├── 🐍 server.py                     # ERP Web Server (port 8080)
+├── 📄 erp_data.json                 # Data file
+├── 📄 start_all.bat                 # Start both servers
+├── 📄 stop_servers.bat              # Stop both servers
+├── 📄 backup.bat                    # Backup data
+└── 📄 erp_menu.bat                  # Control panel
